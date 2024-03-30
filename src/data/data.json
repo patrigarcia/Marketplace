@@ -1,0 +1,23 @@
+[
+    {
+        "id": 1,
+        "imageUrl": "src/assets/image/1.webp",
+        "place": "Córdoba",
+        "pricePerNight": 120,
+        "description": "Disfruta de los hermosos arroyos de Villa Carlos Paz y su vibrante vida nocturna."
+    },
+    {
+        "id": 2,
+        "imageUrl": "src/assets/image/2.webp",
+        "place": "Amalfi",
+        "pricePerNight": 150,
+        "description": "Explora las ciudades costeras italianas y maravíllate con las vistas impresionantes."
+    },
+    {
+        "id": 3,
+        "imageUrl": "src/assets/image/3.webp",
+        "place": "Tandil",
+        "pricePerNight": 80,
+        "description": "Visita El Cerro Centinela y disfruta de las vistas tandilenses."
+    }
+]

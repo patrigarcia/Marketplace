@@ -1,12 +1,20 @@
 import "./App.css";
-import { Box, Text } from "@chakra-ui/react";
+
+import React from "react";
+import { Routes, Route } from "react-router-dom";
+
+import Home from "./components/Home/Home";
+import Navbar from "./components/Navbar/Navbar";
+import Contact from "./components/Contact/Contact";
 
 function App() {
     return (
         <>
-            <Box>
-                <Text>Home</Text>
-            </Box>
+            <Navbar />
+            <Routes>
+                <Route path="/" element={<Home />} />
+                <Route path="/contact" element={<Contact />} />
+            </Routes>
         </>
     );
 }
