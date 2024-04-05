@@ -1,6 +1,7 @@
 import React from "react";
 import { Box, Heading, Text, Button } from "@chakra-ui/react";
 import Card from "../Card/Card";
+import Carousel from "../Carousel/Carousel";
 
 const Home = () => {
     return (
@@ -14,6 +15,9 @@ const Home = () => {
             <Button bgColor="orange.400" size="lg">
                 Explora Eventos
             </Button>
+            <Box mt="4%" mb="4%">
+                <Carousel />
+            </Box>
 
             <Card />
         </Box>
