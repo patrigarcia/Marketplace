@@ -2,6 +2,7 @@ import React from "react";
 import { Card, HStack, Button, Image } from "@chakra-ui/react";
 import { Link } from "react-router-dom";
 import logo from "../../assets/image/ugo1500.png";
+import { FaCartShopping } from "react-icons/fa6";
 
 const Navbar = () => {
     return (
@@ -19,6 +20,7 @@ const Navbar = () => {
                             Contacto
                         </Button>
                     </Link>
+                    <FaCartShopping size="1.2em"/>
                 </HStack>
             </HStack>
         </Card>
